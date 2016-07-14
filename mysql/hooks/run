@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mysqld --datadir={{pkg.svc_data_path}}
