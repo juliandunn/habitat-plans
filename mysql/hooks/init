@@ -4,6 +4,6 @@ exec 2>&1
 
 set -eo pipefail
 
-if [ ! -d {{pkg.svc_data_path}} ]; then
-    mysqld --initialize-insecure
+if [ ! -d {{pkg.svc_data_path}}/mysql ]; then
+    mysqld --initialize-insecure --datadir={{pkg.svc_data_path}} --user=hab
 fi

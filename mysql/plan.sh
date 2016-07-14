@@ -7,6 +7,7 @@ pkg_source=http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.12.tar.gz
 pkg_shasum=32843cb6d22ab22cd2340262b53c0d6009b5bd41b1fa4102beda19635a5c1c87
 
 pkg_deps=(
+  core/busybox-static
   core/glibc
   core/gcc-libs
   core/pcre
