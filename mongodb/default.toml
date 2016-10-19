@@ -1,0 +1,3 @@
+port = 27017
+replsetname = "rs1"
+bind_ip = "127.0.0.1"
